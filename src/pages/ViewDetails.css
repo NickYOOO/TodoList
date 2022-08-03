@@ -1,0 +1,41 @@
+.body {
+    border: 2px solid rgb(238, 238, 238);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.id-button{
+display: flex;
+    height: 80px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 0px 24px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.back-button {
+    display: flex;
+    gap: 10px;
+    margin-top: 3px;
+    border: none;
+    width: 20%;
+    height: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(231, 49, 49);
+    border: 2px solid red;
+    color: rgb(246, 246, 246);
+}
+
+.detail-wrapper {
+    border: 3px solid rgb(176, 80, 80);
+    border-radius: 12px;
+    padding: 12px 24px 24px;
+    width: 600px;
+}
