@@ -15,13 +15,11 @@ const dispatch = useDispatch()
       <div className="button-set">
         <button onClick={()=>dispatch(removelist(todo.id))}
           className="todo-delete-button button"
-          
         >
           삭제하기
         </button>
         <button onClick={()=>dispatch(updatelist(todo.id))}
           className="todo-complete-button button"
-         
         >
           {todo.isDone ? "취소" : "완료"}
         </button>
