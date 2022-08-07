@@ -1,7 +1,7 @@
 import React from "react";
 import Todo from "../todo/Todo";
 import "./style.css";
-import {useSelector} from "react-redux";
+import {useSelector} from "react-redux";   // 얘는 리덕스 스토어의 훅, 스토어가 
 
 function List() {
   const todos = useSelector((state)=> state.todo.list);
